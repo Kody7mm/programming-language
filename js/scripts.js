@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).ready(function () {
   $("form#formselector").submit(function (event) {
     event.preventDefault();
     const queOne = parseInt($("input:radio[name=queOne]:checked").val());
@@ -13,19 +13,20 @@ $(document).ready(function() {
     $("#python").hide();
     $(".results").hide();
 
-    if(total >= 5) {
+    if (total >= 5) {
       $(".answer").fadeIn();
       $("#javascript").prepend();
       $("#javascript").fadeIn();
-    }else if(total <= 4 && total > 2) {
+    } else if (total <= 4 && total > 2) {
       $(".answer").fadeIn();
       $("#elixer").fadeIn();
-    }else if(total <= 2) {
+    } else if (total <= 2) {
       $(".answer").fadeIn();
       $("#python").fadeIn();
     }
   });
+});
 
-  $("form#reset").submit(function(event) {
-    location.reload();
-  });
+$("form#reset").submit(function(event) {
+  location.reload();
+});
