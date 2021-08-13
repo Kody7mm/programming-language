@@ -25,3 +25,7 @@ $(document).ready(function() {
       $("#python").fadeIn();
     }
   });
+
+  $("form#reset").submit(function(event) {
+    location.reload();
+  });
