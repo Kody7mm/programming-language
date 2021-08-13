@@ -8,20 +8,20 @@ $(document).ready(function() {
     const queFive = parseInt($("input:radio[name=queFive]:checked").val());
     const total = queOne + queTwo + queThree + queFour + queFive;
 
-    $("#ruby").hide();
+    $("#javascript").hide();
     $("#elixer").hide();
-    $("#rust").hide();
+    $("#python").hide();
     $(".results").hide();
 
     if(total >= 5) {
       $(".answer").fadeIn();
-      $("#ruby").prepend();
-      $("#ruby").fadeIn();
+      $("#javascript").prepend();
+      $("#javascript").fadeIn();
     }else if(total <= 4 && total > 2) {
       $(".answer").fadeIn();
       $("#elixer").fadeIn();
     }else if(total <= 2) {
       $(".answer").fadeIn();
-      $("#rust").fadeIn();
+      $("#python").fadeIn();
     }
   });
