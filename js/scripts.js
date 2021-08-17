@@ -9,7 +9,7 @@ $(document).ready(function () {
     const total = queOne + queTwo + queThree + queFour + queFive;
 
     $("#javascript").hide();
-    $("#elixer").hide();
+    $("#elixir").hide();
     $("#python").hide();
     $(".results").hide();
 
@@ -19,7 +19,7 @@ $(document).ready(function () {
       $("#javascript").fadeIn();
     } else if (total <= 4 && total > 2) {
       $(".answer").fadeIn();
-      $("#elixer").fadeIn();
+      $("#elixir").fadeIn();
     } else if (total <= 2) {
       $(".answer").fadeIn();
       $("#python").fadeIn();
