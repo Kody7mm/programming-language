@@ -1,3 +1,6 @@
+h1 {
+  border-style: dotted;
+}
 h2 {
   color: rgb(57, 153, 140);
   border-style: dotted;
@@ -61,6 +64,7 @@ h2 {
 
 p {
   color: yellowgreen;
+
 }
 
 body {background-color: coral;}
