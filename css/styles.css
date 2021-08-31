@@ -38,13 +38,11 @@ h2 {
 .img1 {
   width: 300px; 
   height: 200px;
-  border-radius: 35%;
 }
 
 .img2 {
   width: 300px; 
   height: 200px;
-  border-radius: 35%;
 }
 
 .answer {
@@ -54,7 +52,15 @@ h2 {
 .img3 {
   width: 300px; 
   height: 200px;
-  border-radius: 35%;
+}
+
+.img4 {
+  width: 300px; 
+  height: 200px;
+}
+
+p {
+  color: yellowgreen;
 }
 
 body {background-color: coral;}
